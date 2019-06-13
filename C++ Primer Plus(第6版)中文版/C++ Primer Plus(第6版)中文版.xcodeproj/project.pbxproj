@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D6A047222B25F9B006FD463 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A042A22B25D85006FD463 /* main.cpp */; };
+		6D6A05C222B2626E006FD463 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A042A22B25D85006FD463 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -384,8 +384,8 @@
 		6D6A046D22B25F75006FD463 /* Appendix E */ = {
 			isa = PBXGroup;
 			children = (
-				6D6A046E22B25F75006FD463 /* memb_pt.cpp */,
 				6D6A046F22B25F75006FD463 /* align.cpp */,
+				6D6A046E22B25F75006FD463 /* memb_pt.cpp */,
 				6D6A047022B25F75006FD463 /* noex.cpp */,
 			);
 			path = "Appendix E";
@@ -394,11 +394,11 @@
 		6D6A047322B25FDC006FD463 /* Appendix G */ = {
 			isa = PBXGroup;
 			children = (
-				6D6A047422B25FDC006FD463 /* perfectf.cpp */,
-				6D6A047522B25FDC006FD463 /* appg3.cpp */,
-				6D6A047622B25FDC006FD463 /* appg02.cpp */,
 				6D6A047722B25FDC006FD463 /* appg01.cpp */,
+				6D6A047622B25FDC006FD463 /* appg02.cpp */,
+				6D6A047522B25FDC006FD463 /* appg3.cpp */,
 				6D6A047822B25FDC006FD463 /* appg04.cpp */,
+				6D6A047422B25FDC006FD463 /* perfectf.cpp */,
 			);
 			path = "Appendix G";
 			sourceTree = "<group>";
@@ -914,7 +914,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D6A047222B25F9B006FD463 /* main.cpp in Sources */,
+				6D6A05C222B2626E006FD463 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
