@@ -42,6 +42,7 @@
 			isa = PBXGroup;
 			children = (
 				6D6A042922B25D85006FD463 /* C++ Primer Plus(第6版)中文版 */,
+				6D6A043122B25DB3006FD463 /* C++ PrimerPlus 6 源码 */,
 				6D6A042822B25D85006FD463 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,6 +61,13 @@
 				6D6A042A22B25D85006FD463 /* main.cpp */,
 			);
 			path = "C++ Primer Plus(第6版)中文版";
+			sourceTree = "<group>";
+		};
+		6D6A043122B25DB3006FD463 /* C++ PrimerPlus 6 源码 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "C++ PrimerPlus 6 源码";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
