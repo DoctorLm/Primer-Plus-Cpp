@@ -11,7 +11,7 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    
+    char str[] = "Hello C++";
+    cout << "Value of str is : " << str << endl;
     return 0;
 }

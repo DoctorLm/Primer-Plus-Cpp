@@ -11,7 +11,7 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    
+    char str[] = "Unable to read....";
+    cerr << "Error message : " << str << endl;
     return 0;
 }

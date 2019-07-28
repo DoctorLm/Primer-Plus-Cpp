@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D6A05C222B2626E006FD463 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A042A22B25D85006FD463 /* main.cpp */; };
+		6DDB49E722EE3AB100C46424 /* C++ 引用.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DDB49E622EE3AB100C46424 /* C++ 引用.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -343,6 +343,11 @@
 		6D6A05BE22B26051006FD463 /* vect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vect.cpp; sourceTree = "<group>"; };
 		6D6A05BF22B26051006FD463 /* mytime2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mytime2.h; sourceTree = "<group>"; };
 		6D6A05C022B26051006FD463 /* stonewt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stonewt.h; sourceTree = "<group>"; };
+		6DDB49DE22EE381600C46424 /* 标准输入流.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "标准输入流.cpp"; sourceTree = "<group>"; };
+		6DDB49E022EE38CA00C46424 /* 标准输出流.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "标准输出流.cpp"; sourceTree = "<group>"; };
+		6DDB49E222EE392100C46424 /* 标准错误流.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "标准错误流.cpp"; sourceTree = "<group>"; };
+		6DDB49E422EE394E00C46424 /* 标准日志流.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "标准日志流.cpp"; sourceTree = "<group>"; };
+		6DDB49E622EE3AB100C46424 /* C++ 引用.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C++ 引用.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -376,6 +381,11 @@
 			isa = PBXGroup;
 			children = (
 				6D6A042A22B25D85006FD463 /* main.cpp */,
+				6DDB49E622EE3AB100C46424 /* C++ 引用.cpp */,
+				6DDB49E422EE394E00C46424 /* 标准日志流.cpp */,
+				6DDB49E222EE392100C46424 /* 标准错误流.cpp */,
+				6DDB49E022EE38CA00C46424 /* 标准输出流.cpp */,
+				6DDB49DE22EE381600C46424 /* 标准输入流.cpp */,
 				6D6A047922B2600F006FD463 /* C++ PrimerPlus 6 源码 */,
 			);
 			path = "C++ Primer Plus(第6版)中文版";
@@ -898,6 +908,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 6D6A041E22B25D85006FD463;
 			productRefGroup = 6D6A042822B25D85006FD463 /* Products */;
@@ -914,7 +925,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D6A05C222B2626E006FD463 /* main.cpp in Sources */,
+				6DDB49E722EE3AB100C46424 /* C++ 引用.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

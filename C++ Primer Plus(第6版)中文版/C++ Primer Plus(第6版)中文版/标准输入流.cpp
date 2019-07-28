@@ -11,7 +11,9 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    
+    char name[32];
+    cout << "请输入你的名字:";
+    cin >> name;
+    cout << "你的名字是:"<<name<<endl;
     return 0;
 }
